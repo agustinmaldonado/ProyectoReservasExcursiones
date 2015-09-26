@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <title>Login Reserva de Excursiones</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -33,16 +33,17 @@
 </head>
 
 <body>
+<h1>Esta funcionalidad esta obsoleta por el momento, presionar ingresar para ver las funciones del sitio</h1>
 
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <div class="login-panel panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Please Sign In</h3>
+                        <h3 class="panel-title">Por favor registrese</h3>
                     </div>
                     <div class="panel-body">
-                        <form role="form">
+                        <form role="form" action="login.php" method="post">
                             <fieldset>
                                 <div class="form-group">
                                     <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
@@ -56,7 +57,12 @@
                                     </label>
                                 </div>
                                 <!-- Change this to a button or input when using this as a form -->
-                                <a href="index.html" class="btn btn-lg btn-success btn-block">Ingresar</a>
+                               <a href="index.php" class="btn btn-lg btn-success btn-block">Ingresar</a>
+                                <!-- REEMPLAZAR POR EL IMPUT CUANDO EL LOGIN ESTE FUNCIONANDO 
+                                 <input type="submit" class="btn btn-lg btn-success btn-block" value="Ingresar"> -->
+                              
+                              
+                               
                             </fieldset>
                         </form>
                     </div>
